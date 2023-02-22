@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="srb">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Nordeus - Kontakt strana" />
+    <meta
+      name="keywords"
+      content="Nordeus, programiranje, igrice, gaming, games, gamedev, developer"
+    />
+    <meta name="author" content="Nemanja Stojanov" />
+
+    <script
+      src="https://kit.fontawesome.com/df560c1616.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Nordeus</title>
+  </head>
+  <body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand text-red" href="#"
+          ><img src="img/nordeuslogo.png" alt="" width="75"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Početna</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="onama.html">O nama</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="zivotunordeusu.html"
+                >Život u Nordeusu</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="galerija.html">Galerija</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Igrice
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li>
+                  <a class="dropdown-item link-secondary" href="heroic.html"
+                    >Heroic</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item link-secondary" href="topeleven.html"
+                    >Top Eleven</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item link-secondary" href="goldenboot.html"
+                    >Golden Boot</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faq.html">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Kontakt</a
+              >
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                target="_blank"
+                href="https://sr-rs.facebook.com/nordeus/"
+                ><i class="fab fa-instagram fa-2x fa-2x narandzasti-link"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                target="_blank"
+                href="https://www.instagram.com/lifeatnordeus/"
+                ><i class="fab fa-facebook fa-2x fa-2x narandzasti-link"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container bg-light text-dark">
+      <h1 class="text-center narandzasti-tekst">Kontakt</h1>
+      <hr />
+      <section class="mb-4">
+        <p class="text-center w-responsive mx-auto mb-5">
+          Ukoliko želite da započnete karijeru kod nas ili imate nekih
+          pitanja/nedoumica, možete nas kontaktirati na neki od sledećih načina.
+        </p>
+
+        <div class="row">
+          <div class="col-md-9 mb-md-0 mb-5">
+            <form
+              id="contact-form"
+              name="contact-form"
+              action="mail.php"
+              method="POST"
+            >
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="md-form mb-0 p-1">
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      class="form-control"
+                      placeholder="Ime"
+                    />
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="md-form mb-0 p-1">
+                    <input
+                      type="text"
+                      id="email"
+                      name="email"
+                      class="form-control"
+                      placeholder="E-mail adresa"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="md-form mb-0 p-1">
+                    <input
+                      type="text"
+                      id="subject"
+                      name="subject"
+                      class="form-control"
+                      placeholder="Naslov"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="md-form p-1">
+                    <textarea
+                      type="text"
+                      id="message"
+                      name="message"
+                      rows="5"
+                      class="form-control md-textarea"
+                      placeholder="Vaša poruka ili pitanje"
+                    ></textarea>
+                  </div>
+                </div>
+              </div>
+            </form>
+
+            <div class="text-center text-md-left">
+              <a
+                class="btn btn-dark narandzasta-pozadina"
+                onclick="document.getElementById('contact-form').submit();"
+                >Pošalji</a
+              >
+            </div>
+          </div>
+
+          <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+              <li>
+                <i class="fas fa-map-marker-alt fa-2x narandzasti-tekst"></i>
+                <p>
+                  Bulevar Milutina Milankovića 11, Novi Beograd, Srbija <br />
+                  Radno vreme: 9h – 17h <br />
+                  Subotom i nedeljom ne radimo
+                </p>
+              </li>
+
+              <li>
+                <i class="fas fa-phone mt-4 fa-2x narandzasti-tekst"></i>
+                <p>
+                  (011) 3121-562 <br />
+                  +381 11 32 55 824 <br />
+                </p>
+              </li>
+
+              <li>
+                <i class="fas fa-envelope mt-4 fa-2x narandzasti-tekst"></i>
+                <p>
+                  <a href="mailto:support@nordeus.com">support@nordeus.com</a>
+                </p>
+              </li>
+            </ul>
+          </div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11321.682063048056!2d20.4076804!3d44.8129971!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x538ccacc1d0c2f18!2z0J3QvtGA0LTQtdGD0YE!5e0!3m2!1ssr!2srs!4v1641995105557!5m2!1ssr!2srs"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </section>
+
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link px-2 text-muted">Početna</a>
+          </li>
+          <li class="nav-item">
+            <a href="onama.html" class="nav-link px-2 text-muted">O nama</a>
+          </li>
+          <li class="nav-item">
+            <a href="zivotunordeusu.html" class="nav-link px-2 text-muted"
+              >Život u Nordeusu</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="galerija.html" class="nav-link px-2 text-muted"
+              >Galerija</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="faq.html" class="nav-link px-2 text-muted">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a href="mapa.html" class="nav-link px-2 text-muted">Mapa</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-muted">Kontakt</a>
+          </li>
+        </ul>
+        <p class="text-center text-muted">
+          © 2022 <strong class="narandzasti-tekst">Nemanja Stojanov</strong>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

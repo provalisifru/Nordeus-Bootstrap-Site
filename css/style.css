@@ -1,0 +1,48 @@
+.card {
+  background-color: rgba(0, 0, 0, 0.35) !important;
+}
+
+.narandzasti-tekst {
+  color: orangered;
+}
+.narandzasti-link {
+  color: orangered;
+}
+.narandzasti-link:hover {
+  color: orange;
+}
+.narandzasta-pozadina {
+  background-color: orangered;
+}
+.active {
+  color: orangered !important;
+  font-weight: bold;
+}
+.dropdown-item.active {
+  background-color: orangered !important;
+  color: white !important;
+}
+.narandzasti-okvir {
+  border-color: orangered !important;
+}
+.justify-tekst {
+  text-align: justify;
+}
+
+.accordion-button:not(.collapsed) {
+  color: black !important;
+  background-color: rgb(238, 105, 56);
+}
+.crta {
+  color: orangered;
+  width: 150px;
+  border-top: solid 3px;
+  margin: auto;
+}
+.velicina {
+  font-size: 64px;
+}
+.photo-gallery {
+  color: #313437;
+  background-color: #fff;
+}
